@@ -1,6 +1,5 @@
 import { ArrowDown } from "lucide-react";
-
-const HERO_IMAGE_URL = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
+import heroPhoto from "@/assets/hero-photo.jfif";
 
 const Hero = () => {
   return (
@@ -52,7 +51,7 @@ const Hero = () => {
           </div>
           <div className="flex-shrink-0 opacity-0 animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <img
-              src={HERO_IMAGE_URL}
+              src={heroPhoto}
               alt="Christian - Technical Creator"
               className="w-48 h-48 md:w-64 md:h-64 rounded-2xl object-cover shadow-lg"
               style={{ boxShadow: "0 8px 30px rgba(234, 88, 12, 0.12)" }}

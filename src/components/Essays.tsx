@@ -2,28 +2,10 @@ import { ArrowUpRight } from "lucide-react";
 
 const essays = [
   {
-    title: "El arte de simplificar productos complejos",
+    title: "¿Cómo se ve la libertad?",
     date: "Febrero 2026",
-    summary: "Reflexiones sobre cómo la restricción deliberada produce mejores resultados en diseño de producto.",
-    link: "#",
-  },
-  {
-    title: "Ingeniería como ventaja competitiva",
-    date: "Enero 2026",
-    summary: "Por qué las decisiones técnicas tempranas definen el techo de crecimiento de una startup.",
-    link: "#",
-  },
-  {
-    title: "Consultoría técnica sin ruido",
-    date: "Diciembre 2025",
-    summary: "Un framework para entregar valor real como consultor, sin diapositivas innecesarias.",
-    link: "#",
-  },
-  {
-    title: "Construir en público: lecciones aprendidas",
-    date: "Noviembre 2025",
-    summary: "Lo que aprendí compartiendo mi proceso de creación abiertamente durante un año.",
-    link: "#",
+    summary: "El yo es una historia que cuenta el cerebro para mantener coherencia. Un ensayo sobre identidad, conciencia y qué queda cuando dejas de obedecer esa narrativa.",
+    link: "https://como-se-ve-la-libertad.netlify.app/",
   },
 ];
 

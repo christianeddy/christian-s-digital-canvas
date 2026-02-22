@@ -22,7 +22,7 @@ const Hero = () => {
               className="text-lg text-muted-foreground leading-relaxed mb-10 max-w-lg opacity-0 animate-fade-in"
               style={{ animationDelay: "0.25s" }}
             >
-              Technical creator y consultor. Ayudo a equipos y empresas a construir producto, ingeniería y estrategia técnica con claridad y pragmatismo.
+              Ayudo a equipos y startups a construir mejores productos a través del diseño de sistemas a medida, ingeniería y dirección técnica.
             </p>
             <a
               href="#proyectos"

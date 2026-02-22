@@ -11,22 +11,18 @@ const Hero = () => {
       <div className="container max-w-4xl mx-auto px-6">
         <div className="flex flex-col-reverse md:flex-row items-center gap-12 md:gap-16">
           <div className="max-w-lg flex-1">
-            <p className="text-muted-foreground mb-4 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              Hola, soy Christian
-            </p>
             <h1
-              className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.1] mb-6 opacity-0 animate-fade-in"
-              style={{ animationDelay: "0.2s" }}
+              className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-6 animate-fade-in"
+              style={{ animationDelay: "0.1s" }}
             >
-              Technical creator
-              <br />
-              & consultor.
+              Hola, soy{" "}
+              <span style={{ color: "#ea580c" }}>Christian</span>
             </h1>
             <p
               className="text-lg text-muted-foreground leading-relaxed mb-10 max-w-lg opacity-0 animate-fade-in"
-              style={{ animationDelay: "0.35s" }}
+              style={{ animationDelay: "0.25s" }}
             >
-              Ayudo a equipos y startups a construir mejores productos a través de consultoría de producto, ingeniería y dirección técnica.
+              Technical creator y consultor. Ayudo a equipos y empresas a construir producto, ingeniería y estrategia técnica con claridad y pragmatismo.
             </p>
             <a
               href="#proyectos"

@@ -53,7 +53,7 @@ const Hero = () => {
             <img
               src={heroPhoto}
               alt="Christian - Technical Creator"
-              className="w-48 h-48 md:w-64 md:h-64 rounded-2xl object-cover shadow-lg"
+              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover object-top shadow-lg"
               style={{ boxShadow: "0 8px 30px rgba(234, 88, 12, 0.12)" }}
             />
           </div>

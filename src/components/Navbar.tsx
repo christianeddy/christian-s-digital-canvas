@@ -6,13 +6,13 @@ const Navbar = () => {
           Christian
         </a>
         <div className="flex items-center gap-8">
-          <a href="#inicio" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="#inicio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             Inicio
           </a>
-          <a href="#proyectos" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="#proyectos" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             Proyectos
           </a>
-          <a href="#ensayos" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="#ensayos" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             Ensayos
           </a>
         </div>

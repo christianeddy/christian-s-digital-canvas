@@ -35,11 +35,12 @@ const Projects = () => {
             <a
               key={project.name}
               href={project.link}
-              className="group block rounded-xl border border-border bg-card p-6 transition-all duration-200 hover:border-foreground/20 hover:shadow-sm"
+              className="group block rounded-xl border border-border bg-card p-6 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(234,88,12,0.08)] hover:-translate-y-0.5"
+              style={{ borderLeft: "4px solid hsl(21, 90%, 48%)" }}
             >
               <div className="flex items-start justify-between mb-3">
                 <h3 className="font-medium text-foreground">{project.name}</h3>
-                <ArrowUpRight className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                <ArrowUpRight className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:text-primary transition-all" />
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {project.description}

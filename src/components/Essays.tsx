@@ -41,7 +41,8 @@ const Essays = () => {
               href={essay.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block rounded-xl border border-border bg-background p-6 transition-all duration-200 hover:border-foreground/20 hover:shadow-sm"
+              className="group block rounded-xl border border-border bg-background p-6 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(234,88,12,0.08)] hover:-translate-y-0.5"
+              style={{ borderLeft: "4px solid hsl(21, 90%, 48%)" }}
             >
               <p className="text-xs text-muted-foreground mb-2 font-medium tracking-wide uppercase">
                 {essay.date}
@@ -50,7 +51,7 @@ const Essays = () => {
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                 {essay.summary}
               </p>
-              <span className="inline-flex items-center gap-1 text-sm font-medium text-foreground opacity-70 group-hover:opacity-100 transition-opacity">
+              <span className="inline-flex items-center gap-1 text-sm font-medium text-foreground opacity-70 group-hover:opacity-100 group-hover:text-primary transition-all">
                 Leer ensayo <ArrowUpRight className="h-3.5 w-3.5" />
               </span>
             </a>

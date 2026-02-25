@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer
       className="py-12"
-      style={{ background: "linear-gradient(135deg, #1c1917, #292524)" }}
+      style={{ background: "linear-gradient(135deg, #0f172a, #1e293b)" }}
     >
       <div className="container max-w-4xl mx-auto px-6 flex items-center justify-center gap-6">
         {[
@@ -15,7 +15,7 @@ const Footer = () => {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-stone-500 hover:text-orange-400 transition-colors"
+            className="text-slate-500 hover:text-blue-400 transition-colors"
             aria-label={label}
           >
             <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">

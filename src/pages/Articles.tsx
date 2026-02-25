@@ -15,9 +15,10 @@ const Articles = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {articles.map((article) => (
-              <div
+              <Link
+                to={`/articulos/${article.slug}`}
                 key={article.slug}
-                className="block rounded-xl border border-border bg-card p-6"
+                className="block rounded-xl border border-border bg-card p-6 hover:shadow-md hover:shadow-blue-500/10 transition-all duration-300"
                 style={{ borderLeft: "4px solid hsl(217, 91%, 60%)" }}
               >
                 {article.date && (
@@ -37,7 +38,7 @@ const Articles = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {article.summary}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

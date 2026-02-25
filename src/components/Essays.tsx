@@ -23,8 +23,8 @@ const Essays = () => {
               href={essay.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block rounded-xl border border-border bg-background p-6 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(234,88,12,0.08)] hover:-translate-y-0.5"
-              style={{ borderLeft: "4px solid hsl(21, 90%, 48%)" }}
+              className="group block rounded-xl border border-border bg-background p-6 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(37,99,235,0.08)] hover:-translate-y-0.5"
+              style={{ borderLeft: "4px solid hsl(217, 91%, 60%)" }}
             >
               <p className="text-xs text-muted-foreground mb-2 font-medium tracking-wide uppercase">
                 {essay.date}

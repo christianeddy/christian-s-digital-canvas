@@ -30,8 +30,8 @@ const Projects = () => {
               <Wrapper
                 key={project.name}
                 {...wrapperProps}
-                className="group block rounded-xl border border-border bg-card p-6 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(234,88,12,0.08)] hover:-translate-y-0.5"
-                style={{ borderLeft: "4px solid hsl(21, 90%, 48%)" }}
+                className="group block rounded-xl border border-border bg-card p-6 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(37,99,235,0.08)] hover:-translate-y-0.5"
+                style={{ borderLeft: "4px solid hsl(217, 91%, 60%)" }}
               >
                 <div className="flex items-start justify-between mb-3">
                   <h3 className="font-medium text-foreground">{project.name}</h3>

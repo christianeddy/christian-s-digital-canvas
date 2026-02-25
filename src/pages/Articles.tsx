@@ -18,7 +18,7 @@ const Articles = () => {
               <div
                 key={article.slug}
                 className="block rounded-xl border border-border bg-card p-6"
-                style={{ borderLeft: "4px solid hsl(21, 90%, 48%)" }}
+                style={{ borderLeft: "4px solid hsl(217, 91%, 60%)" }}
               >
                 {article.date && (
                   <div className="flex items-center gap-3 mb-2">

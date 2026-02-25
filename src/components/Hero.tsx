@@ -16,7 +16,7 @@ const Hero = () => {
               style={{ animationDelay: "0.1s" }}
             >
               Hola, soy{" "}
-              <span style={{ background: "linear-gradient(90deg, #1e293b, #2563eb)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Christian</span>
+              <span style={{ background: "linear-gradient(90deg, #1e293b, #3b82f6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Christian</span>
             </h1>
             <p
               className="text-lg text-muted-foreground leading-relaxed mb-10 max-w-lg opacity-0 animate-fade-in"

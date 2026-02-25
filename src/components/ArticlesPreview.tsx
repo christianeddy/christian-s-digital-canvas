@@ -4,7 +4,7 @@ import { articles } from "@/data/articles";
 
 const ArticlesPreview = () => {
   return (
-    <section id="articulos" className="py-24 md:py-32">
+    <section id="articulos" className="py-24 md:py-32 bg-gradient-to-b from-blue-50/60 to-background dark:from-blue-950/20 dark:to-background">
       <div className="container max-w-4xl mx-auto px-6">
         <h2 className="text-2xl font-semibold tracking-tight mb-2">Artículos</h2>
         <p className="text-muted-foreground mb-12">Escritos sobre tecnología, producto e ingeniería.</p>

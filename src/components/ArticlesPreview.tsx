@@ -1,5 +1,4 @@
 import { ArrowUpRight } from "lucide-react";
-import { Link } from "react-router-dom";
 import { articles } from "@/data/articles";
 
 const ArticlesPreview = () => {
@@ -11,8 +10,10 @@ const ArticlesPreview = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {articles.map((article) => (
-            <Link
-              to={`/articulos/${article.slug}`}
+            <a
+              href={article.link}
+              target="_blank"
+              rel="noopener noreferrer"
               key={article.slug}
               className="group block rounded-xl border border-border bg-card p-6 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(37,99,235,0.08)] hover:-translate-y-0.5"
               style={{ borderLeft: "4px solid hsl(217, 91%, 60%)" }}
@@ -35,7 +36,7 @@ const ArticlesPreview = () => {
               <span className="inline-flex items-center gap-1 text-sm font-medium text-foreground opacity-70 group-hover:opacity-100 group-hover:text-primary transition-all">
                 Leer artículo <ArrowUpRight className="h-3.5 w-3.5" />
               </span>
-            </Link>
+            </a>
           ))}
         </div>
       </div>

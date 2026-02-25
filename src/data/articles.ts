@@ -4,6 +4,7 @@ export interface Article {
   date: string;
   readTime: string;
   summary: string;
+  link: string;
   content: string;
 }
 
@@ -13,6 +14,7 @@ export const articles: Article[] = [
     title: "El genio eres tú",
     date: "Febrero 2026",
     readTime: "8 min",
+    link: "https://el-genio-eres-tu.netlify.app/",
     summary: "La IA no vino a reemplazarte. Vino a devolverte el trabajo que te prometieron cuando estudiaste.",
     content: `Un amigo mío es abogado, egresado de la PUCP. Lo considero una persona muy inteligente — de hecho, hay momentos en que me he sentido por debajo de su capacidad de razonamiento. Tiene una mente que disfruta aprender y resolver cosas complejas.
 

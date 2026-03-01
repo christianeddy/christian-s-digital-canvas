@@ -5,16 +5,19 @@ const projects = [
     name: "ERP para Dark Kitchens",
     description: "Sistema de gestión en la nube para grupos de restaurantes con múltiples marcas. Actualmente en desarrollo.",
     link: null,
+    linkLabel: "",
   },
   {
     name: "BodhiBot — Flujo conversacional",
     description: "Piloto de asistente conversacional para enseñar a los clientes de Bodhi a usar sus productos y aumentar la probabilidad de crear un hábito.",
     link: "https://bodhibot-02c7fa.netlify.app/",
+    linkLabel: "Ver piloto",
   },
   {
     name: "Transcriber — Audio a texto",
     description: "Herramienta de transcripción de audio a texto construida con Whisper, PyTorch y Pyannote para diarización de speakers.",
     link: "https://github.com/christianeddy/transcriber.git",
+    linkLabel: "Ver repositorio",
   },
 ];
 
@@ -49,7 +52,7 @@ const Projects = () => {
                 </p>
                 {project.link && (
                   <span className="inline-flex items-center gap-1 text-sm font-medium text-foreground opacity-70 group-hover:opacity-100 group-hover:text-primary transition-all">
-                    Ver piloto <ArrowUpRight className="h-3.5 w-3.5" />
+                    {project.linkLabel} <ArrowUpRight className="h-3.5 w-3.5" />
                   </span>
                 )}
               </Wrapper>

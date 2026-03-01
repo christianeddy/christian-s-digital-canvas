@@ -11,6 +11,11 @@ const projects = [
     description: "Piloto de asistente conversacional para enseñar a los clientes de Bodhi a usar sus productos y aumentar la probabilidad de crear un hábito.",
     link: "https://bodhibot-02c7fa.netlify.app/",
   },
+  {
+    name: "Transcriber — Audio a texto",
+    description: "Herramienta de transcripción de audio a texto construida con Whisper, PyTorch y Pyannote para diarización de speakers.",
+    link: "https://github.com/christianeddy/transcriber.git",
+  },
 ];
 
 const Projects = () => {
